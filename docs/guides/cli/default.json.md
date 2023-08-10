@@ -64,8 +64,8 @@ Depending on the SQL database selected the `<database>` setting contains a `conn
 ```json
 {
   "postgresql": {
-    "connection": "pg",
-    "client": "postgres://postgres:@localhost:5432/feathers-chat"
+    "client": "pg",
+    "connection": "postgres://postgres:@localhost:5432/feathers-chat"
   }
 }
 ```
