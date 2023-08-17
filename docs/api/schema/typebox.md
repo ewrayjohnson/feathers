@@ -1459,9 +1459,8 @@ In addition to JSON schema types, TypeBox provides several extended types that a
 Utilities in this section require updating `src/schemas/validators.ts` to the Extended Ajv Configuration, as shown here: 
 
 ```ts
-import { TypeGuard } from '@sinclair/typebox/guard'
 import { Value }     from '@sinclair/typebox/value'
-import { Type }      from '@sinclair/typebox'
+import { Type, TypeGuard }      from '@sinclair/typebox'
 import addFormats    from 'ajv-formats'
 import Ajv           from 'ajv'
 
